@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 4rem;
+  line-height: 1.8;
+  font-weight: bold;
+  margin-left: -32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.light {
+  background: lightblue;
+}
+
+.header {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  float: right;
+  padding: 5px;
+  margin-top:2px;
+  color: #000000;
+  margin-right: 100px;
+}
+
+.my-brand {
+  float: left;
+  margin-left: 90px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
+li a:hover {
+  background: #1e77a5;
+  border: 2px solid #aaa;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.myprofile {
+  clip-path: ellipse(49% 40% at 50% 50%);
+  margin-top: 20px;
+  margin-left: 150px;
+text-align: center;
+  /*background:#00f5c0;*/
+  /*/*  background: #bb0fe0;*/
+  background: #ff145f;
+  /*  background: #ffc42d;*/
+  /*background: #43f061;*/
+  /*background: #12E70D;  */
+  /*background-color: #654fef;*/
+  background-position: center;
+  /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 73%, 75% 100%, 63% 96%, 2% 69%);*/
+}
+
+.myprofile:hover{
+
+width: 90%;
+transition: width 3s;
+cursor: pointer;
+background: #ffc42d;
+
+}
+
+.btn-position {}
+
+#myname {
+  color: #1e77a5;
+  font-weight: bolder;
+}
+
+.footer {
+  text-align: left;
+}
+
+.linkedin {
+  display: none;
+}
+.fab{
+color: #000000;
+background-color: black;
+}
+
+.link:hover+.linkedin {
+  display: block;
+}
+.icon-cog {
+  color: black;
+}
