@@ -15,7 +15,9 @@ h1 {
 .light {
   background: lightblue;
 }
-
+.header {
+  margin-top: 50px;
+}
 
 
 ul {
