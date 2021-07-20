@@ -17,7 +17,7 @@ h1 {
 }
 
 .header {
-  color: red;
+  padding: 3% 18%;
 }
 
 ul {
@@ -92,7 +92,7 @@ background: #ffc42d;
 
 }
 
-.btn-position {}
+
 
 #myname {
   color: #1e77a5;
