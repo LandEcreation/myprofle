@@ -35,10 +35,9 @@ li a {
   text-decoration: none;
   display: block;
   float: right;
-  padding: 5px;
-  margin-top:2px;
+ 
   color: #000000;
-  margin-right: 100px;
+  
 }
 
 .my-brand {
@@ -79,7 +78,7 @@ text-align: center;
     text-align: left;
     
     
-  
+  }
 }
 .myprofile:hover{
 
