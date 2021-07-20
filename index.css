@@ -62,8 +62,7 @@ li a:hover {
 
 .myprofile {
   clip-path: ellipse(49% 40% at 50% 50%);
-  margin-top: 20px;
-  margin-left: 150px;
+ 
 text-align: center;
   /*background:#00f5c0;*/
   /*/*  background: #bb0fe0;*/
@@ -76,6 +75,12 @@ text-align: center;
   /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 73%, 75% 100%, 63% 96%, 2% 69%);*/
 }
 
+@media (max-width: 1200px){
+  .myprofile{
+    text-align: center;
+    
+  
+}
 .myprofile:hover{
 
 width: 90%;
